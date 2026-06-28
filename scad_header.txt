@@ -1,0 +1,45 @@
+/*************************************************************************
+ REMPLACER — agarose mouse-brain mould
+ Two-part parametric mould generator with an oblique brainstem pour channel
+
+ -----------------------------------------------------------------------
+ ATTRIBUTION CHAIN  (please keep intact — this is a derivative work)
+ -----------------------------------------------------------------------
+ Original author : Jason Webb
+                   https://jasonwebb.io
+                   "Parametric two-part mold generator"
+                   https://www.thingiverse.com/thing:31581  (2012)
+
+ Modified by     : Dan Steele (rocketboy on Thingiverse) — licensed CC BY
+                   "Mold Generator - modified"
+                   https://www.thingiverse.com/thing:447443  (2014)
+                   - one registration key changed to a cube so the mould
+                     cannot be assembled backwards
+                   - optional pour hole
+
+ Modified again  : Philippe Zizzari — REMPLACER outreach workshop
+                   INSERM U1215, Neurocentre Magendie, 2026
+                   https://github.com/g0ub
+                   https://g0ub.github.io/remplacer/
+                   - imports a mouse-brain STL derived from the NITRC
+                     tpm_mouse C57BL/6 template (Hikishima et al. 2017,
+                     CC BY-NC-SA), positioned and scaled inside the mould
+                   - OBLIQUE pour channel aligned on the brainstem:
+                       * cone_between(): conical channel along an
+                         arbitrary vector
+                       * channel defined in the STL's own frame
+                         (aims straight at the brainstem)
+                       * the channel exits through one half only, via the
+                         lateral face of the mould
+                   - REMPLACER / REPLACE text engraved on the back of each
+                     half, and "remplacer" in French braille IN RELIEF on the
+                     front face of the bottom half (see parameters at top)
+
+ roundedBox()    : from OpenSCAD's bundled example022.scad (public domain)
+
+ -----------------------------------------------------------------------
+ LICENSE: CC BY-NC-SA 4.0
+ The brain geometry derives from a CC BY-NC-SA template, so the
+ NonCommercial + ShareAlike terms apply to this whole work.
+ Full attribution & citation: see CREDITS.md.  License text: see LICENSE.
+*************************************************************************/
