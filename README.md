@@ -1,5 +1,9 @@
 # REMPLACER — Agarose Mouse Brain Mould / Moule cerveau de souris en agarose
 
+<p align="center">
+  <img src="docs/hero.jpg" alt="REMPLACER / REPLACE printed mould halves with a freshly cast translucent agarose mouse brain in the foreground" width="800">
+</p>
+
 **FR** | [EN below](#english-version)
 
 ---
@@ -64,6 +68,16 @@ LICENSE                    — licence CC BY-NC-SA 4.0
 | `braille_cell_pitch` | 6.0 mm | espacement entre cellules (norme Marburg) |
 
 > Le standard Marburg français pour le braille est d ≈ 1.5 mm et h ≈ 0.5 mm. La valeur par défaut de `braille_dot_h` est volontairement un peu plus haute (0.75 mm) pour compenser l'écrasement d'un point en PLA à 0.2 mm de couche. À ajuster selon ton imprimante : descends vers 0.5 mm si tes points ressortent trop pointus, monte vers 1 mm si on les sent à peine.
+
+### En usage / In use
+
+<p align="center">
+  <img src="docs/stereotaxic-use.jpg" alt="Agarose mouse brain positioned in a Kopf stereotaxic frame with a visible injection trace inside the translucent gel" width="700">
+</p>
+
+**🇫🇷** Cerveau en agarose moulé avec ce dispositif, positionné dans un cadre stéréotaxique standard. La trace rouge à l'intérieur du gel est une démonstration d'injection : le cerveau translucide permet de **voir en direct** la trajectoire de l'aiguille et le site de dépôt — un atout pédagogique central pour la formation en chirurgie stéréotaxique.
+
+**🇬🇧** Agarose brain cast with this device, mounted in a standard stereotaxic frame. The red trace inside the gel is a demonstration injection: the translucent brain lets you **see in real time** the needle trajectory and the deposition site — a key teaching advantage for stereotaxic surgery training.
 
 ### Sources & crédits
 
