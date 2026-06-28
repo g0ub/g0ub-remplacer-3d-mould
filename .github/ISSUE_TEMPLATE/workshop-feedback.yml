@@ -1,0 +1,125 @@
+name: "🧠 Workshop feedback / Retour d'atelier"
+description: "Share a workshop, lab use, or teaching experience with the REMPLACER mould. Partagez un atelier, un usage en TP ou en laboratoire."
+title: "[Workshop] "
+labels: ["workshop-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🇫🇷 Partagez votre expérience
+
+        Merci de prendre le temps de partager votre usage du moule REMPLACER !
+        Vos retours nous aident à améliorer l'outil et à documenter son impact.
+
+        ## 🇬🇧 Share your experience
+
+        Thank you for sharing your use of the REMPLACER mould!
+        Your feedback helps us improve the tool and document its reach.
+
+        ---
+
+        ### ⚠️ Photos & vie privée — IMPORTANT / Photos & privacy — IMPORTANT
+
+        **🇫🇷** Vous pouvez joindre directement aux Issues :
+        - photos de moules imprimés, cerveaux moulés, étapes de coulée
+        - photos de mains au travail, plans larges anonymisés
+        - photos où **personne n'est identifiable** (dos, hors-champ, flou)
+
+        **Ne PAS poster ici** des photos avec des visages reconnaissables, et tout particulièrement de mineurs.
+        Pour ce type de photo, écrivez-nous directement : **philippe.zizzari@inserm.fr** — nous pourrons les valoriser sur le site projet avec votre accord et celui des personnes concernées.
+
+        **🇬🇧** You may attach directly to Issues:
+        - photos of printed moulds, cast brains, casting steps
+        - photos of hands at work, anonymised wide shots
+        - photos where **no one is identifiable** (back view, off-frame, blur)
+
+        **Do NOT post here** photos with recognisable faces, especially of minors.
+        For such photos, please e-mail us directly: **philippe.zizzari@inserm.fr** — we can showcase them on the project website with your consent and that of the people involved.
+
+        ---
+
+  - type: input
+    id: context
+    attributes:
+      label: "Context / Contexte"
+      description: "Lab? Outreach event? Teaching practical? / Laboratoire ? Médiation ? TP ?"
+      placeholder: "e.g. Public outreach workshop at Fête de la Science 2026 / Atelier grand public Fête de la Science 2026"
+    validations:
+      required: true
+
+  - type: input
+    id: audience
+    attributes:
+      label: "Audience / Public"
+      description: "Who used the moulds? Approximate size? / Qui a utilisé les moules ? Taille du groupe ?"
+      placeholder: "e.g. ~30 high-school students / ~30 lycéens"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: size_used
+    attributes:
+      label: "Mould size(s) used / Taille(s) de moule utilisée(s)"
+      multiple: true
+      options:
+        - "×1.5 (~24 mm)"
+        - "×1.75 (~28 mm)"
+        - "×3 (~48 mm, workshop / atelier)"
+        - "Custom / Autre"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what_worked
+    attributes:
+      label: "What worked well / Ce qui a bien marché"
+      placeholder: "Reactions, learning effect, practical aspects... / Réactions, effet pédagogique, aspects pratiques..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: what_didnt
+    attributes:
+      label: "What did not work / Ce qui n'a pas marché"
+      placeholder: "Demoulding issues, printing problems, audience confusion... / Problèmes de démoulage, d'impression, points peu clairs pour le public..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: adaptations
+    attributes:
+      label: "Adaptations / Adaptations"
+      description: "Did you modify the mould, protocol, or workshop format? / Avez-vous modifié le moule, le protocole, le format de l'atelier ?"
+      placeholder: "e.g. used 1.5% agarose with tap water, scaled the mould down, added a tactile guide... / par ex. agarose à 1,5% à l'eau du robinet, échelle réduite, ajout d'un guide tactile..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: photos
+    attributes:
+      label: "Photos (no identifiable people) / Photos (sans personnes identifiables)"
+      description: "Drag & drop your images here. By posting them you confirm they are GDPR-safe (see warning above). / Glissez-déposez vos images ici. En les postant vous confirmez qu'elles sont conformes au RGPD (cf. avertissement ci-dessus)."
+      placeholder: "Drop your photos in this box / Déposez vos photos dans ce cadre"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: gdpr_confirm
+    attributes:
+      label: "GDPR / RGPD confirmation"
+      options:
+        - label: "🇫🇷 Je confirme que les photos jointes ne montrent **aucune personne identifiable**, ou que j'ai obtenu le consentement écrit de chaque personne visible (et des représentants légaux pour les mineurs)."
+          required: true
+        - label: "🇬🇧 I confirm the attached photos show **no identifiable person**, or that I have obtained written consent from every visible person (and from legal guardians for minors)."
+          required: true
+        - label: "🇫🇷 Je détiens les droits sur ces images, ou j'ai l'autorisation explicite de leur(s) auteur(s) pour les publier sous la même licence que le dépôt (CC BY-NC-SA 4.0). / 🇬🇧 I hold the rights to these images, or I have explicit permission from their author(s) to publish them under the same licence as the repository (CC BY-NC-SA 4.0)."
+          required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: "Contact (optional) / Contact (facultatif)"
+      description: "If you'd like to be credited or contacted for follow-up / Si vous souhaitez être crédité ou recontacté pour échanger"
+      placeholder: "e.g. Name, institution, ORCID, e-mail / Nom, institution, ORCID, e-mail"
+    validations:
+      required: false

@@ -1,0 +1,73 @@
+name: "🛠 Bug or improvement / Bug ou amélioration"
+description: "Report a technical issue or suggest an improvement (printing, code, script, documentation). Signaler un problème technique ou suggérer une amélioration (impression, code, script, documentation)."
+title: "[Bug/Improvement] "
+labels: ["bug-or-improvement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🇫🇷 Signaler un problème ou proposer une amélioration
+
+        Merci de garder ce template pour les **questions techniques** (impression, code OpenSCAD, script Python, documentation, licences, etc.).
+        Pour les **retours d'atelier / photos**, utilisez l'autre template « Workshop feedback ».
+
+        ## 🇬🇧 Report a problem or propose an improvement
+
+        Please keep this template for **technical questions** (printing, OpenSCAD code, Python script, documentation, licensing, etc.).
+        For **workshop feedback / photos**, use the other template "Workshop feedback".
+
+        ---
+
+        > ⚠️ **No personal data, please.** This Issue is public and indexed.
+        > Ne partagez aucune donnée personnelle ici. Cette Issue est publique et indexée.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Area / Zone concernée"
+      options:
+        - "OpenSCAD source (.scad)"
+        - "STL files (printing) / Fichiers STL (impression)"
+        - "align_stl.py script"
+        - "Documentation (README, PROTOCOL, brain/, CREDITS)"
+        - "Other / Autre"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "What happened? What did you expect? / Que s'est-il passé ? Qu'attendiez-vous ?"
+      placeholder: "Be specific: parameters used, error messages, expected vs actual behaviour. / Soyez précis : paramètres utilisés, messages d'erreur, comportement attendu vs observé."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "How to reproduce / Comment reproduire"
+      description: "Steps to trigger the problem / Étapes pour reproduire le problème"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment / Environnement"
+      description: "OpenSCAD version, OS, slicer, printer, Python version... / Version OpenSCAD, OS, slicer, imprimante, version Python..."
+      placeholder: "e.g. OpenSCAD 2021.01 on macOS 14, PrusaSlicer 2.7, Prusa MK3S, Python 3.11"
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested fix / Correction suggérée (optional / facultatif)"
+      placeholder: "If you already have an idea or a patch / Si vous avez déjà une idée ou un patch"
+    validations:
+      required: false

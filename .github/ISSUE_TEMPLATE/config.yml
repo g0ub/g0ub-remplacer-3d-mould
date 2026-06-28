@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📧 Photos with identifiable people / Photos avec personnes identifiables"
+    url: "mailto:philippe.zizzari@inserm.fr"
+    about: "For photos with recognisable faces (especially minors), please e-mail instead — do not post them on Issues. Pour les photos avec des visages reconnaissables (en particulier de mineurs), écrivez-nous par e-mail — ne les postez pas en Issues."
