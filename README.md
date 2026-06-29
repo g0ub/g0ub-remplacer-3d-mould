@@ -97,6 +97,8 @@ Ce travail est mis à disposition sous licence [Creative Commons Attribution —
 
 Cette licence est imposée par le template de cerveau amont (CC BY-NC-SA) dont la géométrie est dérivée.
 
+> 📝 **À titre personnel** — Ce dépôt et son contenu sont publiés à titre personnel par l'auteur. Les opinions, choix techniques et engagements qui y sont exprimés n'engagent que lui et ne reflètent pas nécessairement la position de l'INSERM ni de l'Université de Bordeaux. Les affiliations sont mentionnées à titre informatif uniquement.
+
 **Auteur :** Philippe Zizzari — Ingénieur de Recherche, INSERM U1215, Neurocentre Magendie, Université de Bordeaux
 **Contact :** philippe.zizzari@inserm.fr
 **Site du projet :** [https://g0ub.github.io/remplacer/](https://g0ub.github.io/remplacer/)
@@ -181,6 +183,8 @@ This work is licensed under [Creative Commons Attribution — NonCommercial — 
 **In short:** you may use, adapt and redistribute these files freely, provided you **credit the authors** (see [`CREDITS.md`](CREDITS.md)), make **no commercial use**, and **share any adaptations under the same licence**.
 
 This licence is required by the upstream brain template (CC BY-NC-SA) from which the geometry is derived.
+
+> 📝 **Personal capacity** — This repository and its contents are published by the author in a personal capacity. The opinions, technical choices and commitments expressed here are his own and do not necessarily reflect the position of INSERM or the University of Bordeaux. Affiliations are mentioned for information only.
 
 **Author:** Philippe Zizzari — Research Engineer, INSERM U1215, Neurocentre Magendie, Université de Bordeaux
 **Contact:** philippe.zizzari@inserm.fr
