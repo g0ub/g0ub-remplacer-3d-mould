@@ -14,6 +14,16 @@ Ce dépôt contient les fichiers d'un moule en deux parties permettant de fabriq
 
 Le moule a été conçu à partir de **données anatomiques réelles de souris, librement accessibles en ligne**, et d'un générateur de moule paramétrique open source (voir [Sources & crédits](#sources--crédits)). Il permet de produire un modèle translucide utilisable avec un cadre stéréotaxique standard, **sans utiliser aucun animal**.
 
+### ⬇️ Télécharger les moules
+
+Fichiers STL prêts à imprimer (téléchargement direct) :
+
+- **[Moule ×1,5](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x1_5.stl)** — cerveau de souris adulte (~24 mm)
+- **[Moule ×1,75](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x1_75.stl)** — souris large / rat juvénile (~28 mm)
+- **[Moule ×3](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x3.stl)** — version atelier, braille tactile
+
+Toutes les versions sont réunies sur la [page des releases](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases). Pour explorer, modifier ou forker les fichiers source, voir le dossier [`/stl`](stl/) et le générateur OpenSCAD ([`scad/`](scad/)).
+
 ### 🙋 Vous avez utilisé ce moule ? Partagez vos retours !
 
 Vous avez fabriqué des cerveaux en agarose pour votre labo, vos TP ou un atelier de médiation ? **Partagez votre expérience en ouvrant une [Issue](../../issues) sur ce dépôt** — photos, adaptations, retours de publics, versions modifiées du moule : tout est bienvenu. Si c'est plus simple, vous pouvez aussi écrire directement à : philippe.zizzari@inserm.fr.
@@ -110,6 +120,16 @@ Cette licence est imposée par le template de cerveau amont (CC BY-NC-SA) dont l
 This repository contains a two-part mould for casting **agarose** mouse brain models, used in the **REMPLACER** science outreach workshop since 2017.
 
 The mould was designed from **real mouse anatomical data, freely available online**, together with an open-source parametric mould generator (see [Sources & credits](#sources--credits)). It produces a translucent model usable with a standard stereotaxic frame — **no animals required**.
+
+### ⬇️ Download the moulds
+
+Ready-to-print STL files (direct download):
+
+- **[Mould ×1.5](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x1_5.stl)** — adult mouse brain (~24 mm)
+- **[Mould ×1.75](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x1_75.stl)** — large mouse / juvenile rat (~28 mm)
+- **[Mould ×3](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases/download/v1.0/mould_x3.stl)** — workshop version, tactile braille
+
+All versions are on the [releases page](https://github.com/g0ub/g0ub-remplacer-3d-mould/releases). To browse, modify or fork the source files, see the [`/stl`](stl/) folder and the OpenSCAD generator ([`scad/`](scad/)).
 
 ### 🙋 Have you used this mould? Share your feedback!
 
